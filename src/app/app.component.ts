@@ -9,6 +9,7 @@ import { LoginpagePage } from '../pages/loginpage/loginpage';
 import { NewsfeedPage } from '../pages/newsfeed/newsfeed';
 import { FakeprofilePage } from '../pages/fakeprofile/fakeprofile';
 import { RegisterPage } from '../pages/register/register';
+import { ProfilePage } from '../pages/profile/profile';
 
 @Component({
   templateUrl: 'app.html'
@@ -16,7 +17,7 @@ import { RegisterPage } from '../pages/register/register';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = RegisterPage;
+  rootPage: any = ProfilePage;
 
   pages: Array<{title: string, component: any}>;
 
