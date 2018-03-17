@@ -16,6 +16,7 @@ import { KumulosClient } from '../providers/global/global';
 import { ProfilePage } from '../pages/profile/profile';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TimelinePage } from '../pages/timeline/timeline';
+import { NewpostPage } from '../pages/newpost/newpost';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TimelinePage } from '../pages/timeline/timeline';
     RegisterPage,
     ProfilePage,
     TabsPage,
-    TimelinePage
+    TimelinePage,
+    NewpostPage
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,8 @@ import { TimelinePage } from '../pages/timeline/timeline';
     RegisterPage,
     ProfilePage,
     TabsPage,
-    TimelinePage
+    TimelinePage,
+    NewpostPage
   ],
   providers: [
     StatusBar,

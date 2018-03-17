@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ProfilePage } from '../profile/profile';
 import { NewsfeedPage } from '../newsfeed/newsfeed';
+import { NewpostPage } from '../newpost/newpost';
 
 /**
  * Generated class for the TabsPage page.
@@ -26,6 +27,9 @@ export class TabsPage {
 
   HomeTab = NewsfeedPage;
   ProfileTab = ProfilePage;
+  Newpost = NewpostPage;  
+  Search 
+  SettingsTab 
   
 
 }
