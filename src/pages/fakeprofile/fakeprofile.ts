@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { FakeprofilePage } from '../fakeprofile/fakeprofile';
 
 /**
- * Generated class for the LoginpagePage page.
+ * Generated class for the FakeprofilePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,21 +10,16 @@ import { FakeprofilePage } from '../fakeprofile/fakeprofile';
 
 @IonicPage()
 @Component({
-  selector: 'page-loginpage',
-  templateUrl: 'loginpage.html',
+  selector: 'page-fakeprofile',
+  templateUrl: 'fakeprofile.html',
 })
-export class LoginpagePage {
+export class FakeprofilePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LoginpagePage');
-  }
-
-  gotofp(){
-    this.navCtrl.push(FakeprofilePage);
-
+    console.log('ionViewDidLoad FakeprofilePage');
   }
 
 }

@@ -7,6 +7,8 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginpagePage } from '../pages/loginpage/loginpage';
 import { NewsfeedPage } from '../pages/newsfeed/newsfeed';
+import { FakeprofilePage } from '../pages/fakeprofile/fakeprofile';
+import { RegisterPage } from '../pages/register/register';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +19,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     LoginpagePage,
-    NewsfeedPage
+    NewsfeedPage,
+    FakeprofilePage,
+    RegisterPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     LoginpagePage,
-    NewsfeedPage
+    NewsfeedPage,
+    FakeprofilePage,
+    RegisterPage
   ],
   providers: [
     StatusBar,
