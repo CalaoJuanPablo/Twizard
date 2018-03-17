@@ -15,6 +15,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { KumulosClient } from '../providers/global/global';
 import { ProfilePage } from '../pages/profile/profile';
 import { TabsPage } from '../pages/tabs/tabs';
+import { NewpostPage } from '../pages/newpost/newpost';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     FakeprofilePage,
     RegisterPage,
     ProfilePage,
-    TabsPage
+    TabsPage,
+    NewpostPage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +44,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     FakeprofilePage,
     RegisterPage,
     ProfilePage,
-    TabsPage
+    TabsPage,
+    NewpostPage
   ],
   providers: [
     StatusBar,

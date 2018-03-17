@@ -33,8 +33,7 @@ export class RegisterPage {
   }
 
   gotofp(){
-    console.log(this.kumulo);
-    
+    console.log(this.kumulo);    
     var params= {};
     params["name"] = this.paramsName;
     params["email"] =this.paramsEmail ;

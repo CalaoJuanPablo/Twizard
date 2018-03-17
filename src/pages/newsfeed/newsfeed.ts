@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
+import { NgModel } from '@angular/forms';
+import { NewpostPage } from '../newpost/newpost';
 
 /**
  * Generated class for the NewsfeedPage page.
@@ -24,36 +26,7 @@ export class NewsfeedPage {
   // }
 
   tweetPrompt() {
-    let alert = this.alertCtrl.create({
-      title: 'New Tweet',
-      inputs: [
-        {
-          name: 'Tweet',
-          placeholder: '¿Que está pasando? :)'
-        }
-      ],
-      buttons: [
-        {
-          text: 'Cancelar',
-          role: 'cancelar',
-          handler: data => {
-            console.log('Cancel clicked');
-          }
-        },
-        {
-          text: 'Twittear',
-          handler: data => {
-            // if (User.isValid(data.username, data.password)) {
-            //   // logged in!
-            // } else {
-            //   // invalid login
-            //   return false;
-            // }
-          }
-        }
-      ]
-    });
-    alert.present();
+    this.navCtrl.push(NewpostPage);
   }
 
 }

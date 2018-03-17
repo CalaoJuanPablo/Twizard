@@ -11,7 +11,8 @@ import { FakeprofilePage } from '../pages/fakeprofile/fakeprofile';
 import { RegisterPage } from '../pages/register/register';
 import { ProfilePage } from '../pages/profile/profile';
 import { TabsPage } from '../pages/tabs/tabs';
-
+import { NewpostPage } from '../pages/newpost/newpost';
+import { NgModule } from '@angular/core';
 @Component({
   templateUrl: 'app.html'
 })
