@@ -18,6 +18,7 @@ self.toolbox.precache(
     './build/vendor.js',
     './build/main.css',
     './build/polyfills.js',
+    './build/kumulos.js',
     'index.html',
     'manifest.json'
   ]
