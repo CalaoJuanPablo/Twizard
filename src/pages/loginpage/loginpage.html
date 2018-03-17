@@ -6,8 +6,8 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Login
+    <ion-title class="center">
+      Ingresar
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -28,7 +28,7 @@
         <ion-row>
           <ion-col>
             <div *ngIf="error" class="alert alert-danger">{{error}}</div>
-            <button ion-button (click)="gotofp()" class="submit-btn" full type="submit" [disabled]="!loginForm.form.valid">Login
+            <button ion-button (click)="gotofp()" class="submit-btn" full type="submit" [disabled]="!loginForm.form.valid">Ingresar
             </button>            
           </ion-col>
         </ion-row>

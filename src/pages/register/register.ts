@@ -24,7 +24,7 @@ export class RegisterPage {
   }
 
   gotofp(){
-    this.navCtrl.push(FakeprofilePage);
+      this.navCtrl.push(FakeprofilePage);
   }
 
   gotologin(){

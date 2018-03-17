@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'fakeprofile.html',
 })
 export class FakeprofilePage {
-
+  person= {};
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
