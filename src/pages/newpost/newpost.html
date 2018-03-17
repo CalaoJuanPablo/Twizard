@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title icon-end>Twittear  <ion-icon (click)="newpost()" icon-end name="send"></ion-icon></ion-title>
+    <ion-title (click)="newpost()" icon-end>Twittear <ion-icon icon-end name="send"></ion-icon></ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -16,7 +16,7 @@
 <ion-content padding>
   <ion-item>
     <ion-label stacked>Que  está pasando? :)</ion-label>
-    <ion-input type="text"  required [(ngModel)]="paramsTweet"></ion-input>
+    <ion-input type="text" maxlength="140"  required [(ngModel)]="paramsTweet"></ion-input>
   </ion-item>
 
 </ion-content>

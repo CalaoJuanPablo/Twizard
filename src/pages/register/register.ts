@@ -27,7 +27,7 @@ export class RegisterPage {
   ionViewDidLoad() {
     this.kumulo.apiKey = 'b5f478ae-c89a-49e6-add6-7133065fa007';
     this.kumulo.secretKey = 'BUttPkmTz6B6S8Miq8ZiFhPp8SqFw+zoP0Li';
-    this.kumulo.setTokken();
+    //this.kumulo.setTokken();
     console.log(this.kumulo);
     console.log('ionViewDidLoad RegisterPage');
   }

@@ -43,6 +43,10 @@ export class KumulosClient {
         this.sessionToken = generateUUID();
     }
 
+    getTokken() {
+        return this.sessionToken;
+    }
+
     call(method, params = {}) {
         let data = new FormData();
         data.append('sessionToken', this.sessionToken);
