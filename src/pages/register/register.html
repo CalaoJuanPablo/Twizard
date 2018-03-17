@@ -15,22 +15,22 @@
 
 <ion-content padding>
     <ion-list>
-        
+
         <ion-item>
           <ion-label stacked>Nombre Completo</ion-label>
-          <ion-input [(ngModel)]="arrDenuncias.Nombres" type="text"></ion-input>
+          <ion-input type="text" id="name"></ion-input>
         </ion-item>
-    
+
         <ion-item>
           <ion-label stacked>Correo</ion-label>
-          <ion-input [(ngModel)]="arrDenuncias.Apellidos" type="text" required></ion-input>
+          <ion-input  type="text" id="email" required></ion-input>
         </ion-item>
-      
+
         <ion-item>
           <ion-label stacked>Contraseña</ion-label>
-          <ion-input [(ngModel)]="arrDenuncias.Telefono" type="text"></ion-input>
+          <ion-input type="text" id="password" ></ion-input>
         </ion-item>
-          
+
         <div padding>
             <button (click)="gotofp()" ion-button block icon-end>Continuar<ion-icon name="arrow-dropright"></ion-icon></button>
         </div>

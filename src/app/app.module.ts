@@ -12,6 +12,7 @@ import { RegisterPage } from '../pages/register/register';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { KumulosClient } from '../providers/global/global';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    KumulosClient
   ]
 })
 export class AppModule {}
