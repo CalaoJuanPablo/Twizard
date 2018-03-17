@@ -16,6 +16,7 @@ import { KumulosClient } from '../../providers/global/global'
   templateUrl: 'register.html',
 })
 export class RegisterPage {
+  params={};
   constructor(public navCtrl: NavController, public navParams: NavParams, public kumulo: KumulosClient) {
   }
 
@@ -29,18 +30,25 @@ export class RegisterPage {
 
   gotofp(){
     console.log(this.kumulo);
-    var params = {};
-    params.name = 'Prueba Bojato';
-    params.email = 'mbojato@gmail.com';
-    params.password = '1234';
+    // var params = new Object(),
+    //   name = 'Prueba Bojato',
+    //   email = 'mbojato@gmail.com',
+    //   password = '1234';
+    var params={};
+    params["name"] = params['name'];
+    params["email"] =params['email'] ;
+    params["password"] =params['password'];
+
+
     console.log(params);
-    this.kumulo.call('createUser', params);
+    this.kumulo.call('createUser',params);
     console.log('Test');
     console.log('kumulosClient');
     this.navCtrl.push(FakeprofilePage);
   }
 
   gotologin(){
+    
     this.navCtrl.push(LoginpagePage);
   }
 

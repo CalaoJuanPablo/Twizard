@@ -17,17 +17,17 @@
   
           <ion-item>
             <ion-label stacked>Nombre Completo</ion-label>
-            <ion-input type="text" id="name"></ion-input>
+            <ion-input type="text" id="name" [(ngModel)]="params.Name"></ion-input>
           </ion-item>
   
           <ion-item>
             <ion-label stacked>Correo</ion-label>
-            <ion-input  type="text" id="email" required></ion-input>
+            <ion-input  type="text" id="email" required [(ngModel)]="params.Email"></ion-input>
           </ion-item>
   
           <ion-item>
             <ion-label stacked>Contraseña</ion-label>
-            <ion-input type="text" id="password" ></ion-input>
+            <ion-input type="text" id="password" [(ngModel)]="params.Password"></ion-input>
           </ion-item>
   
           <div padding>
