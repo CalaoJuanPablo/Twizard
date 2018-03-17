@@ -10,13 +10,13 @@
     <ion-title>Profile</ion-title>
   </ion-navbar>
 
+  <img class="profile-image" src="../assets/imgs/logo-2.png" alt="Logo">
 </ion-header>
 
 
 <ion-content padding class="background">
     <form #formCtrl="ngForm">
         <div align="center" *ngIf="formCtrl.form.valid">           
-          <img class="profile-image" src="../assets/imgs/logo-2.png">
             <h4>{{paramsName}}</h4>           
         </div>
     <ion-list>

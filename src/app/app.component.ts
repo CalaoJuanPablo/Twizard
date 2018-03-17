@@ -21,7 +21,7 @@ import { NgModule } from '@angular/core';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = NewsfeedPage;
+  rootPage: any = RegisterPage;
 
   pages: Array<{title: string, component: any}>;
 
