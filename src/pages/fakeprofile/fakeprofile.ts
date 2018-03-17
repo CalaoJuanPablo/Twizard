@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { TabsPage } from '../tabs/tabs';
 
 /**
  * Generated class for the FakeprofilePage page.
@@ -22,4 +23,8 @@ export class FakeprofilePage {
     console.log('ionViewDidLoad FakeprofilePage');
   }
 
+  save(){
+
+    this.navCtrl.push(TabsPage);
+  }
 }

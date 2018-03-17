@@ -24,7 +24,8 @@ export class TabsPage {
     console.log('ionViewDidLoad TabsPage');
   }
 
-  ProfileTab = ProfilePage;
   HomeTab = NewsfeedPage;
+  ProfileTab = ProfilePage;
+  
 
 }

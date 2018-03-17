@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { FakeprofilePage } from '../fakeprofile/fakeprofile';
+import { TabsPage } from '../tabs/tabs';
 
 /**
  * Generated class for the LoginpagePage page.
@@ -24,7 +25,7 @@ export class LoginpagePage {
   }
 
   gotofp(){
-    this.navCtrl.push(FakeprofilePage);
+    this.navCtrl.push(TabsPage);
 
   }
 

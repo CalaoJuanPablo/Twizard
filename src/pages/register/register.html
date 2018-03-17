@@ -6,7 +6,7 @@
 <ion-header>
 
     <ion-navbar>
-      <ion-title>Bienvenido a Twizard</ion-title>
+      <ion-title class="center">Bienvenido a Twizard</ion-title>
     </ion-navbar>
   
   </ion-header>
@@ -17,17 +17,17 @@
   
           <ion-item>
             <ion-label stacked>Nombre Completo</ion-label>
-            <ion-input type="text" id="name" [(ngModel)]="params.Name"></ion-input>
+            <ion-input type="text"  [(ngModel)]="paramsName"></ion-input>
           </ion-item>
   
           <ion-item>
             <ion-label stacked>Correo</ion-label>
-            <ion-input  type="text" id="email" required [(ngModel)]="params.Email"></ion-input>
+            <ion-input  type="text"  required [(ngModel)]="paramsEmail"></ion-input>
           </ion-item>
   
           <ion-item>
             <ion-label stacked>Contraseña</ion-label>
-            <ion-input type="text" id="password" [(ngModel)]="params.Password"></ion-input>
+            <ion-input type="text"  [(ngModel)]="paramsPassword"></ion-input>
           </ion-item>
   
           <div padding>
@@ -35,8 +35,9 @@
           </div>
   
           <p class="center">
-              Ya perteneces a Twizard?<a (click)="gotologin()"> ingresa aquí</a>
+              Ya perteneces a Twizard?<a (click)="gotologin()"> Ingresa aquí</a>
          </p>
+         {{params.Name}}
   
         </ion-list>
   </ion-content>
