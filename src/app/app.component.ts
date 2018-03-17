@@ -19,7 +19,7 @@ import { TimelinePage } from '../pages/timeline/timeline';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = TimelinePage;
+  rootPage: any = LoginpagePage;
 
   pages: Array<{title: string, component: any}>;
 
