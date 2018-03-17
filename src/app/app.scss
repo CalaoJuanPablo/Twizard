@@ -29,6 +29,21 @@ $white-post: #fff;
     color: #333;
 }
 
+.ion-header {
+    background: $green-dark-bg;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.header-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+ion-content{
+    display: block;
+}
+
 .scroll-content {
     padding: 0 !important;
 }
