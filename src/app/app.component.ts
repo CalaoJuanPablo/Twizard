@@ -10,6 +10,7 @@ import { NewsfeedPage } from '../pages/newsfeed/newsfeed';
 import { FakeprofilePage } from '../pages/fakeprofile/fakeprofile';
 import { RegisterPage } from '../pages/register/register';
 import { ProfilePage } from '../pages/profile/profile';
+import { TabsPage } from '../pages/tabs/tabs';
 
 @Component({
   templateUrl: 'app.html'
@@ -17,7 +18,7 @@ import { ProfilePage } from '../pages/profile/profile';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = ProfilePage;
+  rootPage: any = TabsPage;
 
   pages: Array<{title: string, component: any}>;
 
